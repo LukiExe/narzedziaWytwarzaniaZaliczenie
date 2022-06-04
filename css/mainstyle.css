@@ -1,0 +1,55 @@
+body {
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+#menu {
+    z-index: 9999;
+    position: sticky;
+    width: 100%;
+    height: auto;
+    top: 0;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.menu h2 {
+    margin: 0;
+}
+
+.menu {
+    flex: 1;
+    color: black;
+    padding: 20px 0;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    transition: 0.5s;
+    border-bottom: 5px white solid;
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+.menu:hover {
+    border-bottom: 5px black solid;
+    transition: 0.5s;
+}
+
+.content {
+    flex: 1 1 100%;
+    text-align: center;
+}
+
+    .content img {
+        margin: 0 auto;
+        display: block;
+        max-width: 100%;
+    }
