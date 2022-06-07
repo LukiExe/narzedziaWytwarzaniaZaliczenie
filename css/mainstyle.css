@@ -53,3 +53,31 @@ body {
         display: block;
         max-width: 100%;
     }
+
+#about {
+    display: flex;
+}
+
+#AboutMe {
+    flex: 5;
+    padding: 2vh;
+}
+
+.advertismentSpace {
+    flex: 2;
+}
+
+#AboutMe p {
+    margin: 0 5vw;
+    line-height: 1.5em;
+}
+
+.donate {
+    font-size: 150%;
+}
+
+#AboutMe a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
