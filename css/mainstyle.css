@@ -81,3 +81,100 @@ body {
     font-weight: bold;
     color: black;
 }
+
+.advertismentSpace {
+    flex: 2;
+}
+
+#AboutMe p {
+    margin: 0 5vw;
+    line-height: 1.5em;
+}
+
+.donate {
+    font-size: 150%;
+}
+
+#AboutMe a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+main {
+    position: relative;
+}
+
+footer {
+    position: absolute;
+    bottom: auto;
+    width: 100%;
+    background: white;
+}
+
+    footer p {
+        display: inline-block;
+        font-size: 15px;
+    }
+
+.maps {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 100px 50px;
+    grid-template-areas:
+        ". ."
+        ". ."
+        ". ."
+        ". ."
+        ". .";
+}
+
+.map_container {
+    margin: 0 auto;
+    transition: 1s;
+    animation-name: downloads;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+}
+
+    .map_container img {
+        margin: 0 auto;
+        display: block;
+        opacity: 0.9;
+        max-width: 100%;
+    }
+
+    .map_container:hover {
+        max-width: 100%;
+        transition: 1s;
+    }
+
+    .map_container img:hover {
+        opacity: 1;
+        transition: 1s;
+    }
+
+.map_title {
+    display: block;
+}
+
+    .map_title h2 {
+        margin: 0 auto;
+    }
+
+#mapinfo p {
+    color: rgb(70, 70, 70);
+    font-size: 15px;
+}
+
+#mapinfo a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(70, 70, 70);
+}
+
+footer {
+    border-top: 1px black solid;
+}
